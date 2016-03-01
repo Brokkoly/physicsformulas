@@ -21,4 +21,7 @@ def tParallel(ni,nt,thetai):
 	thetat = snellsLaw(ni,nt,thetai)
 	retval = (2*ni*cos(thetai))/(ni*cos(thetat)+nt*cos(thetai))
 	return retval
-
+def tPerpendicular(ni,nt,thetai):
+	thetat = snellsLaw(ni,nt,thetai)
+	retval = (2*ni*cos(thetai))/(ni*cos(thetat)+nt*cos(thtai))
+	return retval
